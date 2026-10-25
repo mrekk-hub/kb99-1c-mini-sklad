@@ -19,6 +19,12 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="Контрагент" id="29">
+			<DataPath>Объект.Контрагент</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="30"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="31"/>
+		</InputField>
 		<Table name="Товары" id="7">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
